@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<!--html ng-app="demo"-->
+<head>
+    <title>Заявка принята</title>
+    <!--https://spring.io/guides/gs/consuming-rest-angularjs/-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!--script src="js/hello.js"></script-->
+    <!--script src="swipe.js"></script-->
+
+    <!-- Template Stylesheet -->
+    <link th:href="@{/css/style.css}" href="css/style.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+<body>
+<!-------------------HAMBURGER STYLE------------------------------------------------>
+
+<nav class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#home">Электрик</a></li>
+            <li><a href="#about">Сантехник</a></li>
+            <li><a href="#food">Ремонт техники</a></li>
+            <li><a href="#food-menu">Все услуги</a></li>
+
+        </ul>
+        <h1 class="logo">Мастер</h1>
+    </div>
+</nav>
+
+<!-------------------END HAMBURGER STYLE-------------------------------------------->
+<header class="header">
+    <!--div class="mobile-header-container">
+    <div class="logo__subtitle"><a href="tel:+79046914386">+7 (904) 691-43-86</a></div>
+
+    </div-->
+
+    <div class="header-container">
+        <div class="row">
+            <div class="logo-header">
+                <!--img class="logo__image" src="img/logo.svg" alt="Logo"-->
+                <!--img class="logo__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAnCAYAAABNJBuZAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wcEDCgVK2T8OAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABCUlEQVRYw+2ZMQrCQBBFX6IIASGCB7DQAwiCkCOIYGVr64W8gbZiqyCmkhRWnsEDiOIBtBKWIUHRRN11BlLMDCQ8mL/zl3jNZgsXwseRyAMkAa7Gs7QRJAQiUYt0tBREQX4vygW/fwx0jHwLzIr4kPfmQgyBk6idgRoQABegZPSOQN220aoICFJy1YiC/PupVUR0gbaR74C9bSAVYANUjdoBaNg2WoGAuK+Ar2pkKuz/xEaxh8BI1EYuin0A9I18DqzzAEnEhWkF9ArUwUK4gOEja+M/OQafvAW+ZG10syuIgiiIgihIXhYl1efbBpLp820brUyfrxpREAVxC+QMxKIX29TzXPmrewMgOjArLLytFAAAAABJRU5ErkJggg=="-->
+                <div class="logo__title">Мастер</div>
+                <div class="logo__subtitle"><a href="tel:+79046914386">+7 (904) 691-43-86</a></div>
+            </div>
+            <div class="menu">
+                <div class="menuRow">
+                    <a href="#" class="menuItem"><span class="item-top">Электрик</span></a>
+                    <a href="#" class="menuItem"><span class="item-top">Сантехник</span></a>
+                    <a href="#" class="menuItem"><span class="item-top">Ремонт техники</span></a>
+                    <a href="#" class="menuItem"><span class="item-top">Все услуги</span></a>
+                    <!--a href="#" class="menuItem">Other</a>
+                    <a href="#" class="menuItem">Contact</a-->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+
+    <p>Ваша заявка принята.<br>Скоро мы Вам перезвоним.</p>
+
+
+</section>
+<footer class="footer">
+
+</footer>
+
+</body>
+</html>
